@@ -1,0 +1,15 @@
+*{box-sizing:border-box;font-family:Arial, Helvetica, sans-serif}
+html,body,#root,.app{height:100%;margin:0;padding:0}
+.app{display:flex;align-items:center;justify-content:center;height:100vh;background:#f3f4f6}
+.join {background:white;padding:24px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.08);width:380px}
+.join h2{margin:0 0 12px}
+.input-row{display:flex;gap:8px;margin-bottom:12px}
+.input-row input{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+.btn{padding:8px 12px;border-radius:6px;border:0;cursor:pointer;background:#2563eb;color:white}
+.whiteboard-wrap{width:100%;height:100vh;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,0.05)}
+.toolbar{padding:8px;background:#fff;border-top:1px solid #eee;display:flex;gap:12px;align-items:center}
+.canvas-area{flex:1;position:relative;background:white;margin:12px;border-radius:6px;overflow:hidden}
+.user-cursor{position:absolute;pointer-events:none;transform:translate(-50%,-50%);font-size:12px}
+.count{font-size:14px;color:#333}
+.slider{width:120px}
