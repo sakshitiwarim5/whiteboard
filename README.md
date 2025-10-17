@@ -17,6 +17,7 @@ A collaborative online whiteboard application built with Node.js and Socket.io, 
 - **Realtime Communication:** Socket.io  
 - **Package Management:** npm
 
+
 ## Installation
 
 1. Clone the repository:
